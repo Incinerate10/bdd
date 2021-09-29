@@ -4,8 +4,8 @@ Scenario: SignUp for UrbanLadder
 
 Given driver is intialised
 And url "https://urbanladder.com" is entered
+#And wait 10s
 When wait for few seconds and enter the login credentials
-Then click on login in
 
 #2
 
